@@ -1,0 +1,22 @@
+# secrets — never commit a real key
+.env
+
+# local SQLite databases hold personal memory; regenerate with: python seed.py
+*.db
+*.db-wal
+*.db-shm
+
+# Playwright browser daemon state (large, machine-local)
+browser_profile/
+browser_shots/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# logs
+*.log
+
+# Muse tooling metadata
+*.muse-github-snapshot-sync.json
